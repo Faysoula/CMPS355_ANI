@@ -1,0 +1,9 @@
+,Mash (tool),sourmash,skani,Slope-SpaM,dnadiff,Mash formula,uniform (control),two-class,original,C: window s,two-class + window s,G: window s + aligned-only,AICc choice
+Uniform,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gamma a=2,0,0,0,5,0,0,61,0,0,0,0,0,0
+Gamma a=0.5,98,110,37,45,1,101,150,39,0,1,14,39,23
+Two-class,1,18,0,6,0,0,60,0,20,0,0,0,0
+Wave,0,0,0,0,0,0,0,0,0,0,0,0,0
+Gamma a=2 + 20% foreign genes,0,0,2,6,0,0,66,10,0,0,0,0,10
+TOTAL,99,128,39,62,1,101,337,49,20,1,14,39,33
+pairs counted,1023,1023,1023,306,306,1023,1023,1023,1023,1023,1023,1023,1023

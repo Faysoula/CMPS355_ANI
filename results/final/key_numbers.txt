@@ -1,0 +1,15 @@
+KEY NUMBERS (Experiment 6: 1,260 pairs from real chromosomes, 10 replicates; errors vs TRUE ANI, ANI points)
+H1 bias exists: Mash overestimates by +3.03 on average under uneven rates (+5.62 at alpha=0.5); sourmash +3.37, skani +2.26, dnadiff +2.06, Slope-SpaM +4.32.
+   Wrong side of 95%: Mash 99, sourmash 128, skani 39 of 1023 pairs.
+H2 detectable: fitted alpha 2.03 (true 2) and 0.51 (true 0.5) from k-mer counts alone.
+H3 correctable: mean |error| under uneven rates: ours (gamma) 1.64, ours + window s 2.26, ours two-class 1.82, skani 2.81, Mash 3.12, uniform control 5.48.
+   No harm when rates are uniform: ours 0.59 vs Mash 1.02.
+   Wrong side of 95%: ours (gamma) 20, ours + window s 1.
+   Noise: SD of mean |error| across the 10 replicates is at most 0.51 points (any method, any setting).
+Weak spot: two-class rates: ours (gamma) 3.84 vs skani 2.73; the two-class estimator fixes it (1.56) but is worse under gamma rates (4.29 at alpha=0.5).
+Choosing the model by fit (AICc) does not work: it picks the two-class model in 88% of gamma(2) pairs but only 40% of two-class pairs: k-mer curves (k >= 15) cannot tell the two apart.
+
+REAL GENOMES (100 pairs: 73 development + 27 held-out; no true ANI, so methods are compared with each other)
+development: relative to dnadiff: nucmer -0.27, FastANI -0.53, ANIb -0.87, Mash +0.30, skani -0.50, ours + window s -0.66, ours two-class + window s +0.05
+held-out: relative to dnadiff: nucmer -0.35, FastANI -0.72, ANIb -1.12, Mash +0.24, skani -0.70, ours + window s -0.94, ours two-class + window s -0.08
+More sensitive aligners report lower ANI, consistent with divergent regions that dnadiff does not align.

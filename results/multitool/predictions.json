@@ -1,0 +1,16 @@
+{
+  "written": "2026-10-25 10:46:11",
+  "qstar": {
+    "dnadiff": 0.78,
+    "nucmer -l15": 0.75,
+    "ANIb": 0.63,
+    "FastANI": 0.73
+  },
+  "qstar_rule": "median implied cutoff over informative simulated pairs (min region identity <= 0.80), rounded to 2 decimals",
+  "primary_test": "held-out real pairs (Section 8.4); the 73 development pairs are reported separately",
+  "criteria": {
+    "P1": "For every reference tool R, G with R's q* has a lower mean |error| against R than both Mash and skani.",
+    "P2": "For every R other than dnadiff whose q* differs from dnadiff's by >= 0.02, G with R's q* matches R better (lower mean |error|) than G with dnadiff's q*.",
+    "P3": "Paired bootstrap (5000 resamples): if the 95% CI of [mean |error| of G_R minus mean |error| of the better of Mash/skani] is entirely below 0, G is 'better'; otherwise 'comparable'."
+  }
+}

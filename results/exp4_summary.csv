@@ -1,0 +1,36 @@
+setting,estimator,mean error,mean |error|,max error,misclassified
+Uniform rates,Mash (tool),-0.9,0.9,-0.02,0 / 20
+Uniform rates,skani,-0.64,0.65,0.03,0 / 20
+Uniform rates,Mash formula (k = 21),-0.89,0.89,-0.02,0 / 20
+Uniform rates,Multi-k uniform (control),-0.04,0.11,0.3,0 / 20
+Uniform rates,Multi-k gamma (ours),-0.03,0.07,0.21,0 / 20
+Mildly uneven (alpha = 2),Mash (tool),4.03,4.03,10.12,1 / 20
+Mildly uneven (alpha = 2),skani,2.98,3.0,8.55,0 / 20
+Mildly uneven (alpha = 2),Mash formula (k = 21),4.09,4.09,10.16,1 / 20
+Mildly uneven (alpha = 2),Multi-k uniform (control),6.83,6.83,15.82,7 / 20
+Mildly uneven (alpha = 2),Multi-k gamma (ours),1.39,1.4,6.68,0 / 20
+Strongly uneven (alpha = 0.5),Mash (tool),6.84,6.84,15.07,10 / 20
+Strongly uneven (alpha = 0.5),skani,6.05,6.05,13.74,4 / 20
+Strongly uneven (alpha = 0.5),Mash formula (k = 21),6.84,6.84,15.09,10 / 20
+Strongly uneven (alpha = 0.5),Multi-k uniform (control),9.07,9.07,18.84,16 / 20
+Strongly uneven (alpha = 0.5),Multi-k gamma (ours),2.95,3.03,12.17,2 / 20
+Two-class (no gene diff),Mash (tool),4.16,4.16,8.59,2 / 20
+Two-class (no gene diff),skani,3.63,3.63,8.49,0 / 20
+Two-class (no gene diff),Mash formula (k = 21),4.21,4.21,8.74,2 / 20
+Two-class (no gene diff),Multi-k uniform (control),5.75,5.75,10.8,6 / 20
+Two-class (no gene diff),Multi-k gamma (ours),5.28,5.28,10.78,5 / 20
+Wave (no gene diff),Mash (tool),2.12,2.12,5.39,0 / 20
+Wave (no gene diff),skani,1.75,2.06,6.97,0 / 20
+Wave (no gene diff),Mash formula (k = 21),2.07,2.07,5.11,0 / 20
+Wave (no gene diff),Multi-k uniform (control),4.43,4.43,9.65,2 / 20
+Wave (no gene diff),Multi-k gamma (ours),1.86,1.87,7.34,0 / 20
+Gamma a=2 + 10% unique genes,Mash (tool),3.46,3.53,9.64,0 / 20
+Gamma a=2 + 10% unique genes,skani,2.33,2.61,8.12,0 / 20
+Gamma a=2 + 10% unique genes,Mash formula (k = 21),3.45,3.51,9.66,0 / 20
+Gamma a=2 + 10% unique genes,Multi-k uniform (control),6.63,6.63,15.87,6 / 20
+Gamma a=2 + 10% unique genes,Multi-k gamma (ours),1.26,1.6,7.6,0 / 20
+Gamma a=2 + 30% unique genes,Mash (tool),2.11,2.73,7.85,0 / 20
+Gamma a=2 + 30% unique genes,skani,1.32,2.29,7.53,2 / 20
+Gamma a=2 + 30% unique genes,Mash formula (k = 21),2.06,2.72,7.64,0 / 20
+Gamma a=2 + 30% unique genes,Multi-k uniform (control),6.39,6.39,14.14,7 / 20
+Gamma a=2 + 30% unique genes,Multi-k gamma (ours),1.43,1.47,8.01,0 / 20

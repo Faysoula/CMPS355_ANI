@@ -1,0 +1,9 @@
+pairs,reference,n,q*,P1 beats Mash and skani,P2 own cutoff beats dnadiff's,P3 vs Mash (tool): 95% CI of difference,P3 verdict,P3 vs skani: 95% CI of difference
+held-out,dnadiff,27,0.78,True,n/a (q* too close to dnadiff's),"[-0.24, +0.06]",comparable,
+held-out,nucmer -l15,27,0.75,True,True,,comparable,"[-0.28, +0.14]"
+held-out,ANIb,27,0.63,True,True,,comparable,"[-0.24, +0.09]"
+held-out,FastANI,27,0.73,False,True,,comparable,"[+0.10, +0.28]"
+development,dnadiff,73,0.78,True,n/a (q* too close to dnadiff's),"[-0.24, -0.06]",better,
+development,nucmer -l15,73,0.75,True,True,,comparable,"[-0.14, +0.06]"
+development,ANIb,73,0.63,True,True,,comparable,"[-0.16, +0.03]"
+development,FastANI,73,0.73,False,True,,comparable,"[+0.08, +0.22]"

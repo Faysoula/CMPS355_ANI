@@ -1,0 +1,4 @@
+setting,estimator,mean error,mean |error|,max error,misclassified
+Uniform rates,Mash formula (k = 21),-0.86,0.86,-0.01,0 / 20
+Mildly uneven (alpha = 2),Mash formula (k = 21),3.97,3.97,9.72,2 / 20
+Strongly uneven (alpha = 0.5),Mash formula (k = 21),6.58,6.58,14.43,12 / 20

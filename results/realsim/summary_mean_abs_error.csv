@@ -1,0 +1,8 @@
+setting,Mash (tool),sourmash,skani,dnadiff,uniform (control),original,C: window s,G: window s + aligned-only
+Uniform,1.02,0.6,1.28,1.76,0.7,0.59,0.59,0.59
+Gamma a=2,3.01,3.34,2.07,2.38,5.68,0.36,1.51,2.42
+Gamma a=0.5,5.62,5.74,4.77,4.3,7.82,0.88,3.21,4.76
+Two-class,3.3,3.62,2.73,3.68,4.82,3.84,3.58,3.59
+Wave,1.29,1.79,2.43,2.25,3.46,0.95,1.43,1.58
+Gamma a=2 + 20% foreign genes,2.37,2.67,2.03,2.43,5.64,2.15,1.58,2.48
+ALL uneven,3.12,3.43,2.81,3.01,5.48,1.64,2.26,2.96

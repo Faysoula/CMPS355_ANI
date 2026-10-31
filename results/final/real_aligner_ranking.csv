@@ -1,0 +1,23 @@
+pairs,method,n,mean ANI (%),minus dnadiff,CI low,CI high
+development,dnadiff,73,92.88,0.0,0.0,0.0
+development,nucmer -l15,73,92.61,-0.27,-0.34,-0.2
+development,FastANI,73,92.34,-0.53,-0.67,-0.4
+development,ANIb,73,92.01,-0.87,-1.08,-0.66
+development,Mash (tool),73,93.17,0.3,0.22,0.38
+development,skani,73,92.38,-0.5,-0.64,-0.36
+development,original,73,90.77,-2.11,-2.66,-1.57
+development,C: window s,73,92.22,-0.66,-0.86,-0.46
+development,two-class,73,91.63,-1.25,-1.54,-0.96
+development,two-class + window s,73,92.93,0.05,-0.13,0.23
+development,G: window s + aligned-only,73,92.9,0.02,-0.05,0.1
+held-out,dnadiff,27,92.29,0.0,0.0,0.0
+held-out,nucmer -l15,27,91.94,-0.35,-0.49,-0.23
+held-out,FastANI,27,91.57,-0.72,-0.95,-0.52
+held-out,ANIb,27,91.17,-1.12,-1.49,-0.76
+held-out,Mash (tool),27,92.53,0.24,0.1,0.38
+held-out,skani,27,91.59,-0.7,-0.97,-0.46
+held-out,original,27,89.76,-2.53,-3.56,-1.56
+held-out,C: window s,27,91.35,-0.94,-1.3,-0.59
+held-out,two-class,27,91.18,-1.11,-1.65,-0.57
+held-out,two-class + window s,27,92.21,-0.08,-0.46,0.28
+held-out,G: window s + aligned-only,27,92.34,0.05,-0.08,0.2

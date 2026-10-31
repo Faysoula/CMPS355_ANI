@@ -1,0 +1,59 @@
+genus,species,accession
+Escherichia,Escherichia coli,GCF_000597845.1
+Escherichia,Escherichia coli,GCF_000599625.1
+Escherichia,Escherichia coli,GCF_000599645.1
+Escherichia,Escherichia fergusonii,GCF_000026225.1
+Escherichia,Escherichia fergusonii,GCF_003944565.2
+Escherichia,Escherichia fergusonii,GCF_008064875.1
+Escherichia,Escherichia albertii,GCF_000512125.1
+Escherichia,Escherichia albertii,GCF_001549955.1
+Escherichia,Escherichia albertii,GCF_002285455.1
+Escherichia,Escherichia marmotae,GCF_002900365.1
+Escherichia,Escherichia marmotae,GCF_013636045.1
+Escherichia,Escherichia marmotae,GCF_013636235.1
+Escherichia,Escherichia ruysiae,GCF_029876145.1
+Escherichia,Escherichia ruysiae,GCF_059553235.1
+Klebsiella,Klebsiella pneumoniae,GCF_000364385.3
+Klebsiella,Klebsiella pneumoniae,GCF_000739495.1
+Klebsiella,Klebsiella pneumoniae,GCF_000764615.1
+Klebsiella,Klebsiella quasipneumoniae,GCF_001278905.1
+Klebsiella,Klebsiella quasipneumoniae,GCF_001280925.1
+Klebsiella,Klebsiella quasipneumoniae,GCF_001596075.2
+Klebsiella,Klebsiella variicola,GCF_000019565.1
+Klebsiella,Klebsiella variicola,GCF_000812205.2
+Klebsiella,Klebsiella variicola,GCF_000828055.2
+Klebsiella,Klebsiella oxytoca,GCF_001022115.1
+Klebsiella,Klebsiella oxytoca,GCF_001022295.1
+Klebsiella,Klebsiella oxytoca,GCF_001870185.1
+Klebsiella,Klebsiella michiganensis,GCF_000724525.1
+Klebsiella,Klebsiella michiganensis,GCF_002216835.1
+Klebsiella,Klebsiella michiganensis,GCF_002290285.1
+Klebsiella,Klebsiella grimontii,GCF_004104525.2
+Klebsiella,Klebsiella grimontii,GCF_008364425.2
+Klebsiella,Klebsiella grimontii,GCF_013590775.1
+Bacillus cereus group,Bacillus cereus,GCF_000635895.2
+Bacillus cereus group,Bacillus cereus,GCF_000832765.1
+Bacillus cereus group,Bacillus cereus,GCF_000835185.1
+Bacillus cereus group,Bacillus thuringiensis,GCF_000008505.1
+Bacillus cereus group,Bacillus thuringiensis,GCF_000092165.1
+Bacillus cereus group,Bacillus thuringiensis,GCF_000193355.1
+Bacillus cereus group,Bacillus anthracis,GCF_000534935.2
+Bacillus cereus group,Bacillus anthracis,GCF_000725325.1
+Bacillus cereus group,Bacillus anthracis,GCF_000742655.1
+Bacillus cereus group,Bacillus mycoides,GCF_000018825.1
+Bacillus cereus group,Bacillus mycoides,GCF_000775975.1
+Bacillus cereus group,Bacillus mycoides,GCF_000832605.1
+Bacillus cereus group,Bacillus cytotoxicus,GCF_000017425.1
+Bacillus cereus group,Bacillus cytotoxicus,GCF_002250885.2
+Bacillus cereus group,Bacillus cytotoxicus,GCF_002250905.2
+Streptococcus mitis group,Streptococcus pneumoniae,GCF_001095405.2
+Streptococcus mitis group,Streptococcus pneumoniae,GCF_001255215.1
+Streptococcus mitis group,Streptococcus pneumoniae,GCF_001457635.1
+Streptococcus mitis group,Streptococcus mitis,GCF_000027165.1
+Streptococcus mitis group,Streptococcus mitis,GCF_000148585.2
+Streptococcus mitis group,Streptococcus mitis,GCF_000722765.2
+Streptococcus mitis group,Streptococcus pseudopneumoniae,GCF_000221985.1
+Streptococcus mitis group,Streptococcus pseudopneumoniae,GCF_963280995.1
+Streptococcus mitis group,Streptococcus oralis,GCF_000253155.1
+Streptococcus mitis group,Streptococcus oralis,GCF_001983955.1
+Streptococcus mitis group,Streptococcus oralis,GCF_002356415.1

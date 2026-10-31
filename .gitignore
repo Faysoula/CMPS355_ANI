@@ -1,0 +1,5 @@
+data/genomes/
+*.tmp.npz
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store

@@ -1,0 +1,39 @@
+pairs,reference,n,estimator,mean error,mean |error|,max |error|,misclassified
+held-out,dnadiff,27,Mash (tool),0.24,0.36,0.81,0
+held-out,dnadiff,27,skani,-0.7,0.72,2.86,0
+held-out,dnadiff,27,original,-2.53,2.79,7.93,0
+held-out,dnadiff,27,G (dnadiff cutoff),0.05,0.26,1.08,0
+held-out,nucmer -l15,27,Mash (tool),0.59,0.65,1.43,0
+held-out,nucmer -l15,27,skani,-0.34,0.38,2.12,0
+held-out,nucmer -l15,27,original,-2.18,2.45,6.99,0
+held-out,nucmer -l15,27,G (nucmer -l15 cutoff),0.08,0.32,1.18,0
+held-out,nucmer -l15,27,G (dnadiff cutoff),0.4,0.54,1.89,0
+held-out,ANIb,27,Mash (tool),1.36,1.38,3.06,0
+held-out,ANIb,27,skani,0.42,0.55,1.66,0
+held-out,ANIb,27,original,-1.42,1.76,5.26,0
+held-out,ANIb,27,G (ANIb cutoff),0.29,0.47,1.62,0
+held-out,ANIb,27,G (dnadiff cutoff),1.17,1.19,3.4,0
+held-out,FastANI,27,Mash (tool),0.96,0.97,2.06,0
+held-out,FastANI,27,skani,0.03,0.21,1.04,0
+held-out,FastANI,27,original,-1.81,2.16,6.49,0
+held-out,FastANI,27,G (FastANI cutoff),0.29,0.39,1.56,0
+held-out,FastANI,27,G (dnadiff cutoff),0.77,0.8,2.62,0
+development,dnadiff,73,Mash (tool),0.3,0.37,1.05,6
+development,dnadiff,73,skani,-0.5,0.53,2.61,0
+development,dnadiff,73,original,-2.11,2.27,7.86,0
+development,dnadiff,73,G (dnadiff cutoff),0.02,0.22,1.42,0
+development,nucmer -l15,73,Mash (tool),0.57,0.58,1.59,6
+development,nucmer -l15,73,skani,-0.23,0.3,1.89,0
+development,nucmer -l15,73,original,-1.84,2.01,6.93,0
+development,nucmer -l15,73,G (nucmer -l15 cutoff),0.06,0.27,1.32,0
+development,nucmer -l15,73,G (dnadiff cutoff),0.29,0.41,2.24,0
+development,ANIb,73,Mash (tool),1.17,1.17,3.38,6
+development,ANIb,73,skani,0.37,0.45,1.92,0
+development,ANIb,73,original,-1.24,1.51,5.15,0
+development,ANIb,73,G (ANIb cutoff),0.28,0.39,2.15,0
+development,ANIb,73,G (dnadiff cutoff),0.89,0.91,3.8,0
+development,FastANI,73,Mash (tool),0.83,0.84,2.27,6
+development,FastANI,73,skani,0.04,0.18,0.78,0
+development,FastANI,73,original,-1.58,1.85,6.37,0
+development,FastANI,73,G (FastANI cutoff),0.21,0.33,1.71,0
+development,FastANI,73,G (dnadiff cutoff),0.55,0.58,2.93,0

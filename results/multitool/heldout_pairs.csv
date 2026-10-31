@@ -1,0 +1,32 @@
+genus,acc_a,acc_b,species_a,species_b,mash_tool,batch
+Bacillus cereus group,GCF_000534935.2,GCF_000832605.1,Bacillus anthracis,Bacillus mycoides,0.9066869,heldout
+Bacillus cereus group,GCF_000742655.1,GCF_000018825.1,Bacillus anthracis,Bacillus mycoides,0.9086261,heldout
+Bacillus cereus group,GCF_000832765.1,GCF_000775975.1,Bacillus cereus,Bacillus mycoides,0.9072092,heldout
+Bacillus cereus group,GCF_000018825.1,GCF_000775975.1,Bacillus mycoides,Bacillus mycoides,0.9828098,heldout
+Bacillus cereus group,GCF_000835185.1,GCF_000742655.1,Bacillus cereus,Bacillus anthracis,0.9872328,heldout
+Bacillus cereus group,GCF_000018825.1,GCF_000832605.1,Bacillus mycoides,Bacillus mycoides,0.9776803,heldout
+Escherichia,GCF_008064875.1,GCF_001549955.1,Escherichia fergusonii,Escherichia albertii,0.898235,heldout
+Escherichia,GCF_003944565.2,GCF_000512125.1,Escherichia fergusonii,Escherichia albertii,0.895657,heldout
+Escherichia,GCF_008064875.1,GCF_002285455.1,Escherichia fergusonii,Escherichia albertii,0.899224,heldout
+Escherichia,GCF_008064875.1,GCF_002900365.1,Escherichia fergusonii,Escherichia marmotae,0.9030264,heldout
+Escherichia,GCF_002285455.1,GCF_013636045.1,Escherichia albertii,Escherichia marmotae,0.9066869,heldout
+Escherichia,GCF_001549955.1,GCF_013636235.1,Escherichia albertii,Escherichia marmotae,0.903722,heldout
+Escherichia,GCF_000026225.1,GCF_003944565.2,Escherichia fergusonii,Escherichia fergusonii,0.9847117,heldout
+Escherichia,GCF_001549955.1,GCF_002285455.1,Escherichia albertii,Escherichia albertii,0.9861515,heldout
+Escherichia,GCF_000512125.1,GCF_001549955.1,Escherichia albertii,Escherichia albertii,0.9888459,heldout
+Klebsiella,GCF_000764615.1,GCF_002216835.1,Klebsiella pneumoniae,Klebsiella michiganensis,0.861757,heldout
+Klebsiella,GCF_001278905.1,GCF_013590775.1,Klebsiella quasipneumoniae,Klebsiella grimontii,0.855984,heldout
+Klebsiella,GCF_000364385.3,GCF_000724525.1,Klebsiella pneumoniae,Klebsiella michiganensis,0.865837,heldout
+Klebsiella,GCF_001022295.1,GCF_008364425.2,Klebsiella oxytoca,Klebsiella grimontii,0.9240441,heldout
+Klebsiella,GCF_002216835.1,GCF_008364425.2,Klebsiella michiganensis,Klebsiella grimontii,0.9439138,heldout
+Klebsiella,GCF_001022115.1,GCF_004104525.2,Klebsiella oxytoca,Klebsiella grimontii,0.9254216,heldout
+Klebsiella,GCF_000019565.1,GCF_000812205.2,Klebsiella variicola,Klebsiella variicola,0.9877257,heldout
+Klebsiella,GCF_001278905.1,GCF_001596075.2,Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,0.9894824,heldout
+Klebsiella,GCF_001280925.1,GCF_001596075.2,Klebsiella quasipneumoniae,Klebsiella quasipneumoniae,0.9894781,heldout
+Streptococcus mitis group,GCF_001255215.1,GCF_002356415.1,Streptococcus pneumoniae,Streptococcus oralis,0.881166,heldout
+Streptococcus mitis group,GCF_963280995.1,GCF_000253155.1,Streptococcus pseudopneumoniae,Streptococcus oralis,0.89193,heldout
+Streptococcus mitis group,GCF_000148585.2,GCF_001983955.1,Streptococcus mitis,Streptococcus oralis,0.889016,heldout
+Streptococcus mitis group,GCF_001255215.1,GCF_000027165.1,Streptococcus pneumoniae,Streptococcus mitis,0.9249431,heldout
+Streptococcus mitis group,GCF_001255215.1,GCF_000148585.2,Streptococcus pneumoniae,Streptococcus mitis,0.9261102999999999,heldout
+Streptococcus mitis group,GCF_000221985.1,GCF_963280995.1,Streptococcus pseudopneumoniae,Streptococcus pseudopneumoniae,0.9251647000000001,heldout
+Streptococcus mitis group,GCF_001095405.2,GCF_001255215.1,Streptococcus pneumoniae,Streptococcus pneumoniae,0.9873512,heldout

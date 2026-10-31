@@ -1,0 +1,13 @@
+NEW KEY NUMBERS
+Window estimator WT (Exp 6 TEST replicates 1-9): mean |error| uneven 1.47 vs ours-gamma 1.64, skani 2.81, Mash 3.12
+   near the 95% line: WT 0.43 vs ours-gamma 0.77, skani 1.07, Mash 1.14
+   two-class: WT 3.40 vs ours-gamma 3.84; foreign genes: WT 1.37 vs 2.15
+   wrong side of 95%: WT 0, ours-gamma 18, skani 35, Mash 88 (of 921)
+   WT minus ours-gamma near 95%: -0.34 [-0.39, -0.29]
+
+Real genomes: k-mer alpha vs alignment alpha Spearman 0.87 (n=93); neighbouring-region correlation 0.57;
+   real rate distribution is gamma-like (alpha 5.8 among aligned regions); near-zero-rate regions 0.8%
+
+Experiment 7 (real rate profiles, 360 pairs): mean |error| WT 0.54, ours-gamma 0.63, skani 1.00, Mash 0.74, sourmash 0.67
+   mean error (bias): Mash -0.05, skani -0.67, ours-gamma -0.40, WT -0.16
+   sketched version: 1/100 0.66, 1/1000 0.90 (full 0.63)
