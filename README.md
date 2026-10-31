@@ -1,54 +1,33 @@
-# c4bot — local Connect 4 bot for papergames.io
+# Evaluating the robustness of k-mer-based ANI estimation to regional variation in mutation rates
 
-Plays perfect Connect 4 against the papergames robot. Runs on your laptop, no
-browser extension.
+Code, data lists and results for the CMPS 355 (Bioinformatics Algorithms) research paper by
+Faysal Elestwani and Nanar Aintablian, American University of Beirut, Fall 2026–2027.
 
-## Run it
+All notebooks were run on Google Colab (CPU runtime). To rerun them, put this folder in Google Drive as
+`MyDrive/CMPS355_ANI_Project` and open the notebooks in numbered order. Each notebook installs the tools it needs.
 
-1. Install Node.js (LTS) from https://nodejs.org if you don't have it.
-2. Double-click `start.bat` (first run installs two packages, ~10 MB).
-3. A Chrome window opens on papergames. Log in once if you want (the login is
-   kept in `browser-profile/`), then click **Play vs robot**.
-4. The bot plays every move for you. Watch the terminal for what it's doing.
+## Notebooks
 
-Any color, either side starting — it works out whose turn it is from the board.
+| Notebook | What it does | Paper section |
+|---|---|---|
+| `1_Pilot_and_RealGenomes.ipynb` | Pilot simulations on a random 1 Mb sequence; first comparison on real genomes | Methods 2.1, 2.2 (pilot) |
+| `2_RealGenome_Estimators.ipynb` | Real-genome estimators, development and held-out pairs, the four aligners, frozen predictions for G | Methods 2.1, 2.3, 2.4 |
+| `3_SyntheticPattern_Simulations.ipynb` | Synthetic-pattern simulations (1,260 pairs; "Experiment 6" in the code) | Methods 2.2 |
+| `4_Final_Tables.ipynb` | Two-class estimator, AICc model choice, Slope-SpaM, final tables | Methods 2.3, 2.5 |
+| `5_RealProfiles_WindowEstimator.ipynb` | WT estimator, real rate profiles, real-profile simulations (360 pairs; "Experiment 7" in the code), sketches | Methods 2.2, 2.3 |
 
-| Hotkey      | What it does                                        |
-|-------------|-----------------------------------------------------|
-| `Shift + 0` | pause / resume auto-play                            |
-| `Shift + =` | play the best move right now (works while paused)   |
-| `Shift + -` | show every column's score (+ win, 0 draw, − loss)   |
+## Folders
 
-## How it works
+- `data/` – genome lists (`v2_genomes.csv`), genome pairs (`v2_pairs.csv`) and reference ANI (`v2_reference_ani.csv`).
+  The genome FASTA files are **not** included because of their size. They are public NCBI RefSeq assemblies and can be
+  downloaded by accession, for example with the NCBI Datasets tool:
+  `datasets download genome accession GCF_000597845.1 --include genome`
+- `results/realsim/` – synthetic-pattern simulations: raw results, per-pair k-mer counts (`curves/`), the simulation script `realsim.py`
+- `results/exp7/` – real-profile simulations: raw results, the 24 rate profiles, the script `realsim7.py`
+- `results/Part2/`, `results/multitool/` – real-genome results (development and held-out pairs, all aligners)
+- `results/final/` – final tables and figures used in the paper, and `key_numbers.txt` / `key_numbers_v2.txt`
 
-- **`engine.mjs`** — the solver from
-  [benjaminrall/connect-four-ai](https://github.com/benjaminrall/connect-four-ai):
-  Rust compiled to WebAssembly (near-native speed) with an opening book.
-  Every position is solved exactly, usually in under a millisecond, worst case
-  a few seconds around moves 9–13. No time limits, no guessing.
-- **`bot.mjs`** — opens Chrome (or Edge) with Playwright, reads the board
-  from the page every 150 ms, waits until pieces stop falling, and clicks the
-  best column with a real mouse click.
-- Auto-play only runs in rooms with a robot player (`ROBOT_NAMES` at the top
-  of `bot.mjs`, default `"Paper Man"`). The terminal prints the player names
-  for every room, so if your robot level has a different name, add it there.
-- Only the classic 7×6 board is supported.
+## Reproducibility
 
-## What to expect
-
-Connect 4 is solved: whoever moves first wins with perfect play. So the bot
-wins every game where it starts. When the robot starts, a perfect robot would
-win, but the bot always picks the move that holds out longest, and any mistake
-by the robot gets punished immediately.
-
-## Test
-
-`npm test` runs the real bot (headless) against `test/mock.html`, a local copy
-of the papergames board markup with a robot opponent:
-
-```
-node test/run-mock.mjs 10 greedy     # weaker robot: bot should win all
-node test/run-mock.mjs 10 perfect    # perfect robot: bot wins exactly when it starts
-```
-
-This needs a Chromium for Playwright: `npx playwright-core install chromium`.
+Simulated pair *j* uses random seed 10000 + *j* (synthetic-pattern simulations) or 20000 + *j* (real-profile simulations).
+Held-out real pairs were drawn with seed 2026. Tool versions are listed in Section 2.5 of the paper.
